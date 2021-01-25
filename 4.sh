@@ -16,3 +16,7 @@ cd zlib-1.2.11
 ./configure --prefix=$HOME/local/prior
 make
 make install
+
+
+apt-get install -y git build-essential ffmpeg libpcre3 libpcre3-dev libssl-dev zlib1g-dev
+apt install -y libswscale-dev libavcodec-dev libavfilter-dev libxml2-dev
