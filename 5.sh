@@ -1,3 +1,4 @@
+bash
 cd /root/nginx-install/development/nginx-1.16.1
 patch -p01 < ../quiche/extras/nginx/nginx-1.16.patch
 
@@ -42,6 +43,6 @@ patch -p01 < ../quiche/extras/nginx/nginx-1.16.patch
 
 
 
-make
+make -j12
 make modules
 make install 
