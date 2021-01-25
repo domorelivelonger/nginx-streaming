@@ -20,4 +20,4 @@ make install
 
 apt-get install -y git build-essential ffmpeg libpcre3 libpcre3-dev libssl-dev zlib1g-dev
 apt install -y libswscale-dev libavcodec-dev libavfilter-dev libxml2-dev
-apt-get -y install libnet-ssleay-perl libpath-tiny-perl libio-socket-ssl-perl libgd-dev libperl-dev
+apt-get -y install libnet-ssleay-perl libpath-tiny-perl libio-socket-ssl-perl libgd-dev libperl-dev libtool
